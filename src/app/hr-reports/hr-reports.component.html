@@ -1,0 +1,17 @@
+<h3>HR Reports Generation</h3>
+<br />
+<div class="ui-g ui-fluid">
+  <h6>From:</h6>
+  <p-calendar [(ngModel)]="dateFrom" [showIcon]="true" tabindex="0" [disabledDates]="invalidDates" [disabledDays]="[0,6]"
+    [readonlyInput]="true"></p-calendar>
+  &nbsp;<h6>To:</h6>
+  <p-calendar [(ngModel)]="dateTo" [showIcon]="true" tabindex="0" [disabledDates]="invalidDates" [disabledDays]="[0,6]"
+    [readonlyInput]="true"></p-calendar>
+  &nbsp;<h6>Team:</h6>
+  <p-dropdown [options]="teams" [(ngModel)]="selectedTeam" placeholder="Select a Team" optionLabel="name" [showClear]="true"></p-dropdown>
+  &nbsp;<p-button [hidden]="hideButton" icon="pi pi-check" label="Generate" (click)="SendRequest()"></p-button>
+</div>
+<div style="margin-top: 20px; text-align:center" *ngIf="showProgressSpinner">
+  <h3>Generating report..</h3>
+  <p-progressSpinner></p-progressSpinner>
+</div>

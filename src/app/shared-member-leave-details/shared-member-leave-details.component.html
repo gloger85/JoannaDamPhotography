@@ -1,0 +1,35 @@
+<p-card>
+  <div class="ui-g">
+      <div class="ui-g-10">
+          <h4>Your <b>leaves</b> details:</h4>
+      </div>
+      <div class="ui-g-2">
+        <div style="float: right;" *ngIf = "this.router.url != '/request-leave'">
+          <p-button icon="pi pi-plus-circle" label="Request leave ..." (click)="showDialog()"></p-button>  
+        </div>
+      </div>
+    <div class="ui-g-3">
+        <div class="ui-g-4">Allocated </div>
+        <div class="ui-g-4">26 days</div>
+        <div class="ui-g-4"></div>
+    </div>
+    <div class="ui-g-3">
+      <div class="ui-g-4">Used </div>
+      <div class="ui-g-4">20 days</div>
+      <div class="ui-g-4"></div>
+    </div>
+    <div class="ui-g-3">
+      <div class="ui-g-4">From the previous year</div>
+      <div class="ui-g-4">2 days</div>
+      <div class="ui-g-4"></div>
+    </div>
+    <div class="ui-g-3">
+      <div class="ui-g-4">Remained to use</div>
+      <div class="ui-g-4">8 days</div>
+      <div class="ui-g-4"></div>
+    </div>
+  </div>
+</p-card>
+
+<app-shared-calendar></app-shared-calendar>
+

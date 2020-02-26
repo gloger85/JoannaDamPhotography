@@ -1,0 +1,71 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav navbar-logo mx-auto">
+        <li class="nav-item active">
+          <a routerLink="/" routerLinkActive="active" class="nav-link">Strona Głowna
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/about" routerLinkActive="active" class="nav-link">O Mnie</a>
+        </li>
+        <li>
+          <a routerLink="/about" routerLinkActive="active" class="nav-link">Galeria</a>
+        </li>
+        <li>
+          <a routerLink="/about" routerLinkActive="active" class="nav-link">Oferta</a>
+        </li>
+        <li>
+          <a routerLink="/about" routerLinkActive="active" class="nav-link">Kontakt</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/joanna.dam.2019" routerLinkActive="active" class="nav-link"><i
+              class="fa fa-fw fa-facebook-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dreamcatcher.by.sia" routerLinkActive="active" class="nav-link"><i
+              class="fa fa-fw fa-instagram"></i></a>
+        </li>
+        <li>
+        <a href="mailto:dam.joanna@gmail.com" routerLinkActive="active" class="nav-link"><i
+            class="fa fa-fw fa-envelope-o"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Header -->
+
+
+<!-- Main Content Section -
+<section class="py-5 bg-footer">
+  <div class="container">
+    <h1>Witaj na mojej stronie</h1>
+
+    <router-outlet></router-outlet>
+
+  </div>
+</section>-->
+<div class="ui-g">
+  <div class="ui-g-12">
+    <div style="padding-top: 20px;">
+      <router-outlet></router-outlet>
+    </div>
+    </div>
+    </div>
+<!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+
+
+<!-- Footer -->
+<footer class="py-5 bg-footer">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright by &copy; <a href='mailto:gloger85@gmail.com'>AG</a></p>
+  </div>
+</footer>

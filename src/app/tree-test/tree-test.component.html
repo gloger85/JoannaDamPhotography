@@ -1,0 +1,17 @@
+
+
+<p-tree [value]="files" [style]="{'width':'100%'}" selectionMode="checkbox" [(selection)]="selectedFiles"></p-tree>
+<div>
+  <div>
+    Selected names:
+  </div>
+  <div>
+    <span *ngFor="let file of selectedFiles">{{file.label}} </span>
+  </div>
+  <div style="margin: 0 auto; text-align:right">
+      <p-button (click)="approveRequests()" icon="pi pi-check" styleClass="ui-button-info" label="Approve requests"></p-button>&nbsp;&nbsp;
+      <p-button (click)="cancelRequests()" icon="pi pi-minus-circle" styleClass="ui-button-warning" label="Cancel requests"></p-button>
+  </div>
+</div>
+
+
