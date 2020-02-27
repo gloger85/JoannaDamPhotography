@@ -11,7 +11,7 @@ import { HrDashboardComponent } from './hr-dashboard/hr-dashboard.component';
 import { HrHolidayPlannerComponent } from './hr-holiday-planner/hr-holiday-planner.component';
 import { HrReportsDashboardComponent } from './hr-reports-dashboard/hr-reports-dashboard.component';
 import { HrSettingsComponent } from './hr-settings/hr-settings.component';
-import { LoginComponent } from './login/login.component';
+import { MainComponent } from './main/main.component';
 import { LogoutComponent } from './logout/logout.component';
 import { ManagerAvailabilityViewerComponent } from './manager-availability-viewer/manager-availability-viewer.component';
 import { ManagerDashboardComponent } from './manager-dashboard/manager-dashboard.component';
@@ -23,7 +23,7 @@ import { UserAdministrationComponent } from './user-administration/user-administ
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/main', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'availability-viewer', component: AvailabilityViewerComponent},
   { path: 'dashboard', component: DashboardComponent },
@@ -33,7 +33,7 @@ const routes: Routes = [
   { path: 'hr-holiday-planner', component: HrHolidayPlannerComponent },
   { path: 'hr-reports-dashboard', component: HrReportsDashboardComponent },
   { path: 'hr-settings', component: HrSettingsComponent },
-  { path: 'login', component: LoginComponent },
+  { path: 'main', component: MainComponent },
   { path: 'logout', component: LogoutComponent },
   { path: 'manager-availability-viewer', component: ManagerAvailabilityViewerComponent },
   { path: 'manager-dashboard', component: ManagerDashboardComponent },

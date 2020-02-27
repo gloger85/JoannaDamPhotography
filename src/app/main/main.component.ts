@@ -3,12 +3,12 @@ import { Router } from '@angular/router';
 import {Message} from 'primeng/components/common/api';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  selector: 'app-main',
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.css']
 })
 
-export class LoginComponent implements OnInit {
+export class MainComponent implements OnInit {
 
   msgs: Message[] = [];
 
@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  public login(email: string): void {
+  public main(email: string): void {
     // tslint:disable-next-line:no-console
     console.info(`Email entered: ${email}`);
     email = email.trim().toLocaleLowerCase();

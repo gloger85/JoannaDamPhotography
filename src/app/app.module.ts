@@ -28,7 +28,7 @@ import { HrReportsDashboardComponent } from './hr-reports-dashboard/hr-reports-d
 import { HrSettingsComponent } from './hr-settings/hr-settings.component';
 import { HrViewerComponent } from './hr-viewer/hr-viewer.component';
 import { LeaveRequestsListComponent } from './leave-requests-list/leave-requests-list.component';
-import { LoginComponent } from './login/login.component';
+import { MainComponent } from './main/main.component';
 import { LogoutComponent } from './logout/logout.component';
 import { ManagerAvailabilityViewerComponent } from './manager-availability-viewer/manager-availability-viewer.component';
 import { ManagerDashboardComponent } from './manager-dashboard/manager-dashboard.component';
@@ -93,7 +93,7 @@ import { TreeModule } from 'primeng/tree';
     HrSettingsComponent,
     HrViewerComponent,
     LeaveRequestsListComponent,
-    LoginComponent,
+    MainComponent,
     LogoutComponent,
     ManagerDashboardComponent,
     ManagerInboxComponent,

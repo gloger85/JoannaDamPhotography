@@ -15,11 +15,24 @@
         <li>
           <a routerLink="/about" routerLinkActive="active" class="nav-link">O Mnie</a>
         </li>
-        <li>
-          <a routerLink="/about" routerLinkActive="active" class="nav-link">Galeria</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Galeria
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ciążowa</a>
+            <a class="dropdown-item" href="#">Noworodkowa</a>
+            <a class="dropdown-item" href="#">Mini sesje</a>
+          </div>
         </li>
-        <li>
-          <a routerLink="/about" routerLinkActive="active" class="nav-link">Oferta</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Oferta
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Mini sesje tematyczne</a>
+            <a class="dropdown-item" href="#">Bony podarunkowe</a>
+          </div>
         </li>
         <li>
           <a routerLink="/about" routerLinkActive="active" class="nav-link">Kontakt</a>
@@ -44,28 +57,20 @@
 <!-- Main Header -->
 
 
-<!-- Main Content Section -
+<!-- Main Content Section -->
 <section class="py-5 bg-footer">
   <div class="container">
-    <h1>Witaj na mojej stronie</h1>
-
-    <router-outlet></router-outlet>
+<router-outlet></router-outlet>
 
   </div>
-</section>-->
-<div class="ui-g">
-  <div class="ui-g-12">
-    <div style="padding-top: 20px;">
-      <router-outlet></router-outlet>
-    </div>
-    </div>
-    </div>
+</section>
+
 <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
 
 
 <!-- Footer -->
 <footer class="py-5 bg-footer">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright by &copy; <a href='mailto:gloger85@gmail.com'>AG</a></p>
+    <p class="m-0 text-center text-white">Copyright &copy; <a href='mailto:gloger85@gmail.com'>AG</a></p>
   </div>
 </footer>
