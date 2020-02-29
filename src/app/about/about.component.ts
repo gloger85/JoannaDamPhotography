@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.imgPath = "/src/app/images/card.png"
+    this.imgPath = '/src/app/images/card.png';
   }
 
 }
