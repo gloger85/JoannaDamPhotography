@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 
 import { AboutComponent } from './about/about.component';
 import { AvailabilityViewerComponent } from './availability-viewer/availability-viewer.component';
+import { ContactComponent } from './contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EventLogComponent } from './event-log/event-log.component';
 import { HrEventLogComponent } from './hr-event-log/hr-event-log.component';
@@ -25,6 +26,7 @@ import { UserAdministrationComponent } from './user-administration/user-administ
 const routes: Routes = [
   { path: '', redirectTo: '/main', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'availability-viewer', component: AvailabilityViewerComponent},
   { path: 'dashboard', component: DashboardComponent },
   { path: 'event-log', component: EventLogComponent },

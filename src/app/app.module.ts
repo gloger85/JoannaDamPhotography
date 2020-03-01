@@ -71,6 +71,7 @@ import { TableModule } from 'primeng/table';
 import { TabViewModule } from 'primeng/tabview';
 import { TooltipModule } from 'primeng/tooltip';
 import { TreeModule } from 'primeng/tree';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -110,7 +111,8 @@ import { TreeModule } from 'primeng/tree';
     TreeTestComponent,
     UserAdministrationComponent,
     UserListComponent,
-    ManagerAvailabilityViewerComponent
+    ManagerAvailabilityViewerComponent,
+    ContactComponent
   ],
   imports: [
     AccordionModule,
