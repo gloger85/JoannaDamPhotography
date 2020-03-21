@@ -72,8 +72,6 @@ import { TabViewModule } from 'primeng/tabview';
 import { TooltipModule } from 'primeng/tooltip';
 import { TreeModule } from 'primeng/tree';
 import { ContactComponent } from './contact/contact.component';
-import { Redirect2fbComponent } from './redirect2fb/redirect2fb.component';
-import { Redirect2InsComponent } from './redirect2ins/redirect2ins.component';
 
 @NgModule({
   declarations: [
@@ -114,9 +112,7 @@ import { Redirect2InsComponent } from './redirect2ins/redirect2ins.component';
     UserAdministrationComponent,
     UserListComponent,
     ManagerAvailabilityViewerComponent,
-    ContactComponent,
-    Redirect2fbComponent,
-    Redirect2InsComponent
+    ContactComponent
   ],
   imports: [
     AccordionModule,

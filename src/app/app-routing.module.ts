@@ -19,8 +19,6 @@ import { ManagerDashboardComponent } from './manager-dashboard/manager-dashboard
 import { ManagerInboxComponent } from './manager-inbox/manager-inbox.component';
 import { PasswordResetComponent } from './password-reset/password-reset.component';
 import { PasswordCreateNewComponent } from './password-create-new/password-create-new.component';
-import { Redirect2fbComponent } from './redirect2fb/redirect2fb.component';
-import { Redirect2InsComponent } from './redirect2ins/redirect2ins.component';
 import { UserAdministrationComponent } from './user-administration/user-administration.component';
 
 
@@ -29,8 +27,6 @@ const routes: Routes = [
   { path: '', redirectTo: '/main', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'facebook', component: Redirect2fbComponent },
-  { path: 'instagram', component: Redirect2InsComponent },
   { path: 'availability-viewer', component: AvailabilityViewerComponent},
   { path: 'dashboard', component: DashboardComponent },
   { path: 'event-log', component: EventLogComponent },
