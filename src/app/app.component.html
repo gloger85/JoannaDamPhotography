@@ -38,16 +38,22 @@
           <a routerLink="/contact" routerLinkActive="active" class="nav-link">Kontakt</a>
         </li>
         <li>
-          <a href="https://www.facebook.com/joanna.dam.2019" routerLinkActive="active" class="nav-link"><i
+          <a href (click)="openFacebook()" routerLinkActive="active" class="nav-link"><i
               class="fa fa-fw fa-facebook-square"></i></a>
         </li>
         <li>
-          <a href="https://www.instagram.com/dreamcatcher.by.sia" routerLinkActive="active" class="nav-link"><i
+          <a href (click)="openInstagram()" routerLinkActive="active" class="nav-link"><i
               class="fa fa-fw fa-instagram"></i></a>
         </li>
         <li>
-        <!--<a href="mailto:dam.joanna@gmail.com" routerLinkActive="active" class="nav-link"><i
-            class="fa fa-fw fa-envelope-o"></i></a> -->
+          <a href class="nav-link">
+            <i class="flag-icon flag-icon-pl flag-icon-squared">
+            </i></a>
+        </li>
+        <li>
+          <a href class="nav-link">
+            <i class="flag-icon flag-icon-gb flag-icon-squared">
+            </i></a>
         </li>
       </ul>
     </div>
